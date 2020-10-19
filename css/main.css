@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+    background: #000; 
+    font-family:"Oxygen"; 
+    font-weight:300; 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Piedra', cursive;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+  display: block;  
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  color: #fff;
+  font-size: 36px;
+  padding: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: -10%;
+}
+
+.main {
+    color: #000;
+    padding: 80px;
+}
+
+.main ul li {
+    background: rgba(0,0,0,0.5);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: #fff;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.list-style {
+  list-style: none;
+}
+
+.description-font {
+  color: #ed7c0b;
+  font-size: larger;
+  font-family: 'Piedra', cursive;
+}
+
+.movie-image {
+  width: 45%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  max-width: 250px;
+}
+
+input[type=checkbox] {
+  width: 20px; 
+  height: 20px;
+}
